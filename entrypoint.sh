@@ -12,22 +12,22 @@ fi
 echo ${Vless_Path}
 
 if [[ -z "${Vless_UUID}" ]]; then
-  Vless_UUID="618b6edd-07ac-412e-92c7-ee1fe1d31e72"
+  Vless_UUID="04e2ff74-93f5-11ec-b909-0242ac120002"
 fi
 echo ${Vless_UUID}
 
 if [[ -z "${Vmess_Path}" ]]; then
-  Vmess_Path="/gtfr"
+  Vmess_Path="/desw"
 fi
 echo ${Vmess_Path}
 
 if [[ -z "${Vmess_UUID}" ]]; then
-  Vmess_UUID="174537f8-93f1-11ec-b909-0242ac120002"
+  Vmess_UUID="e2642548-93f6-11ec-b909-0242ac120002"
 fi
 echo ${Vmess_UUID}
 
 if [[ -z "${Share_Path}" ]]; then
-  Share_Path="/pgytf"
+  Share_Path="/mdres"
 fi
 echo ${Share_Path}
 
