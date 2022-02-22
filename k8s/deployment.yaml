@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: grdesa
+  name: brdes
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: grdesa
+      app: brdes
   template:
     metadata:
       labels:
-        app: grdesa
+        app: brdes
     spec:
       containers:
-      - image: okteto.dev/grdesa:latest
-        name: grdesa
+      - image: okteto.dev/brdes:latest
+        name:brdes
         ports:
         - containerPort: 8080
         env:
