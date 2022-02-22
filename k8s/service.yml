@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: grdesa
+  name: brdes
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "grdesa"
+  - name: "brdes"
     port: 8080
   selector:
-    app: grdesa
+    app: brdes
