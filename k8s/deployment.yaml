@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sdres
+  name: grdesa
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: sdres
+      app: grdesa
   template:
     metadata:
       labels:
-        app: sdres
+        app: grdesa
     spec:
       containers:
-      - image: okteto.dev/sdres:latest
-        name: sdres
+      - image: okteto.dev/grdesa:latest
+        name: grdesa
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: ProxySite
           value: "mirror.umd.edu"
         - name: Vless_UUID
-          value: "5eaf4aa3-2dc8-4219-9d51-c0ad18779433"
+          value: "618b6edd-07ac-412e-92c7-ee1fe1d31e72"
         - name: Vless_Path
-          value: "/s233"
+          value: "/mjhuy"
         - name: Vmess_UUID
-          value: "e0bd6d7c-f805-4270-8dac-b830a603f86b"
+          value: "174537f8-93f1-11ec-b909-0242ac120002"
         - name: Vmess_Path
-          value: "/s244"
+          value: "/gtfr"
         - name: Share_Path
-          value: "/share233"
+          value: "/pgytf"
